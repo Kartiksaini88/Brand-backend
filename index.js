@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.urlencoded())
 
 let connectdb = ()=>{
-    mongoose.connect("mongodb+srv://Kartik:1234@kartik.exjuu.mongodb.net/bab?retryWrites=true&w=majority")
+    mongoose.connect("mongodb+srv://ujjwall:ujjwall@kartik.exjuu.mongodb.net/BrandAndBeyond?retryWrites=true&w=majority")
 }
 
 const userSchema = new mongoose.Schema({
